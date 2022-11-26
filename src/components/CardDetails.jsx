@@ -28,7 +28,7 @@ const CardDetails = () => {
 
   const dlt = (id) => {
     dispatch(DLT(id));
-    navigate("/");
+    navigate("/menu");
   }
 
   const send = (e) =>{
