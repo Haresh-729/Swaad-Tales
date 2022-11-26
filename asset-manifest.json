@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Swaad-Tales/static/css/main.1e227257.css",
+    "main.js": "/Swaad-Tales/static/js/main.4cf08de5.js",
+    "index.html": "/Swaad-Tales/index.html",
+    "main.1e227257.css.map": "/Swaad-Tales/static/css/main.1e227257.css.map",
+    "main.4cf08de5.js.map": "/Swaad-Tales/static/js/main.4cf08de5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e227257.css",
+    "static/js/main.4cf08de5.js"
+  ]
+}
