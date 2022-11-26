@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Swaad-Tales/static/css/main.1e227257.css",
-    "main.js": "/Swaad-Tales/static/js/main.d26c67b2.js",
+    "main.css": "/Swaad-Tales/static/css/main.a6354bac.css",
+    "main.js": "/Swaad-Tales/static/js/main.af50137f.js",
+    "static/media/Sbi.png": "/Swaad-Tales/static/media/Sbi.ea4a5ec6d516a72cba03.png",
     "index.html": "/Swaad-Tales/index.html",
-    "main.1e227257.css.map": "/Swaad-Tales/static/css/main.1e227257.css.map",
-    "main.d26c67b2.js.map": "/Swaad-Tales/static/js/main.d26c67b2.js.map"
+    "main.a6354bac.css.map": "/Swaad-Tales/static/css/main.a6354bac.css.map",
+    "main.af50137f.js.map": "/Swaad-Tales/static/js/main.af50137f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e227257.css",
-    "static/js/main.d26c67b2.js"
+    "static/css/main.a6354bac.css",
+    "static/js/main.af50137f.js"
   ]
 }
