@@ -51,7 +51,7 @@ const NavBar = () => {
     <div className="select-none top-0 flex sticky z-50 justify-between items-center w-full h-20 px-4 text-white bg-[#161616]">
       <div className="flex flex-row">
         <img src={logo} alt="logo" />
-        <button onClick={handleClick1}>
+        <button onClick={()=>navigate("/menu")}>
           <h1 className="px-4 cursor-pointer uppercase font-raleway font-medium text-gray-500 hover:scale-105 duration-200">ADD TO CART</h1>
         </button>
         <button onClick={handleClick1}>
