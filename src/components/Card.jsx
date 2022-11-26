@@ -3,6 +3,7 @@ import "./style.css";
 import Cardsdata from './CardData';
 import { useDispatch } from 'react-redux';
 import { ADD } from "../redux/actions/action";
+import logo from "../assets/Swaad_Logo.png";
 
 const Card = () => {
 
@@ -15,7 +16,7 @@ const Card = () => {
   return (
     <div className=" w-full bg-black h-full xl:items-center xl:flex xl:flex-col">
         <div className="select-none max-w-screen-xl p-2 flex flex-col justify-center w-full h-full">
-        <h1 className="font-extrabold text-3xl">Swaad Meals</h1>
+        <h1 className="font-extrabold text-3xl">Swaad Tales</h1>
         <div className="grid md:grid-cols-3 gap-5 justify-center items-center">
         {Cardsdata.map((element, id) => (
                 <div key={id} className="rounded-[3rem] w-[22rem] text-white p-1.5 cursor-pointer flex items-center justify-center hover:shadow-lg hover:shadow-[#ffeb3b]">

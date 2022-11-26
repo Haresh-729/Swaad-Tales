@@ -40,7 +40,7 @@ const CardDetails = () => {
   }
 
   return (
-    <div className=" w-full md:h-screen bg-black xl:items-center xl:flex xl:flex-col py-[5rem]">
+    <div className="select-none w-full md:h-screen bg-black xl:items-center xl:flex xl:flex-col py-[5rem]">
       <div className="overflow-y-scroll w-full scrollbar-hide h-full mx-5 flex flex-col items-center">
       <h2 className="text-2xl text-red-700 font-bold mt-[2rem]">Item Details Page</h2>
       {
@@ -71,7 +71,7 @@ const CardDetails = () => {
         })
       }
       </div>
-      <h2 className="mt-[3rem] text-white">Designed with ❤️ By <a href="https://haresh-729.github.io/My_Portfolio/"><strong className="hover:text-[1.03rem] hover:text-[#136eb8] cursor-pointer "> Haresh Kurade</strong></a></h2>
+      <h2 className="select-none mt-[3rem] text-white">Designed with ❤️ By <a href="https://haresh-729.github.io/My_Portfolio/"><strong className="hover:text-[1.03rem] hover:text-[#136eb8] cursor-pointer "> Haresh Kurade</strong></a></h2>
     </div>
   );
 };

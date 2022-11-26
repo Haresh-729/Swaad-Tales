@@ -4,6 +4,7 @@ import Menu from "@mui/material/Menu";
 import { useDispatch, useSelector } from "react-redux";
 import { NavLink, useNavigate } from "react-router-dom";
 import { DLT } from "../redux/actions/action";
+import logo from "../assets/Swaad_Logo.png"
 
 
 const NavBar = () => {
@@ -49,6 +50,7 @@ const NavBar = () => {
   return (
     <div className="select-none top-0 flex sticky z-50 justify-between items-center w-full h-20 px-4 text-white bg-[#161616]">
       <div className="flex flex-row">
+        <img src={logo} alt="logo" />
         <button onClick={handleClick1}>
           <h1 className="px-4 cursor-pointer uppercase font-raleway font-medium text-gray-500 hover:scale-105 duration-200">ADD TO CART</h1>
         </button>
@@ -67,7 +69,7 @@ const NavBar = () => {
         className="mr-[2rem]"
       >
         <i
-          className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 fa-solid fa-cart-shopping cursor-pointer "
+          className="select-none transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 fa-solid fa-cart-shopping cursor-pointer "
           style={{ fontSize: 25 }}
         ></i>
       </Badge>
@@ -83,7 +85,7 @@ const NavBar = () => {
 
         {
           getdata.length ?(
-          <div className="flex flex-col p-4">
+          <div className="select-none flex flex-col p-4">
             <div className="flex flex-col">
               <div className="flex flex-row">
                 <h1 className="ml-[.5rem]">Photo</h1> 
@@ -94,7 +96,7 @@ const NavBar = () => {
                 {
                   getdata.map((e)=>{
                     return( 
-                      <div className="flex border-2 rounded-xl pb-[1.5rem] px-[1rem] mt-[1rem]">
+                      <div className="select-none flex border-2 rounded-xl pb-[1.5rem] px-[1rem] mt-[1rem]">
                         <i onClick={()=>dlt(e.id)} className="fas fa-trash cursor-pointer absolute mt-2 right-8 text-[#F23307]"></i>
                       <table className="mt-[2rem]">
                       <tr>
