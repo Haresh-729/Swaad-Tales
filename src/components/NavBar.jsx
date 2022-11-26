@@ -29,7 +29,7 @@ const NavBar = () => {
 
   const navigate = useNavigate();
   const handleClick1 = () => {
-    navigate("/");
+    navigate("/Swaad-Tales");
   }
 
   const total = ()=> {
