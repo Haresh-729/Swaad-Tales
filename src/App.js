@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App scrollbar-hide">
       <NavBar />
+      <Card />
       <Routes>
         <Route path="/" element={<Card />} />
         <Route path="/cart/:id" element={<CardDetails />} />
